@@ -1,0 +1,6 @@
+name: 'Do Nothing'
+runs:
+  using: "composite"
+  steps: 
+    - run: echo This is DO NOTHING!!.
+      shell: bash
